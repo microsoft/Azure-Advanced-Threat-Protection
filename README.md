@@ -1,3 +1,8 @@
+# About
+This repository is for [Azure ATP](https://aka.ms/aatp).  
+
+# Projects
+* [Auditing](Auditing/README.md)): Useful to ensure the Domain Controllers have the required Advanced Audit Policy settings to maximize the return of investment for Azure ATP.
 
 # Contributing
 
