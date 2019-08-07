@@ -2,6 +2,10 @@
 
 Understanding Audit Policy configuration is imperative for your Domain Controllers.  This includes Azure Advanced Threat Protection (AATP) and Advanced Threat Analytics (ATA).  Use this tool to ensure your DCs have the proper settings to maximize your detection capability.
 
+## Why is this important?
+
+For more information, please refer to this [blog](https://ciberesponce.com/2017/08/18/ata-auditing-auditpol-advanced-audit-settings-enforcement-lightweight-gateway-service-discovery/).
+
 _**New features in recent versions:**_
 
 - Ability to support Azure ATP (AATP); this is the default value now
@@ -10,9 +14,7 @@ _**New features in recent versions:**_
 
 ## Getting Started
 
-For explicit details on using this script, please refer [here](https://aka.ms/ataauditingblog).
-
-For default values (assess against Azure ATP (AAT), throttling with 10 concurrent processes):
+For default values (assess against Azure ATP (AATP), throttling with 10 concurrent processes):
 
 ```PowerShell
     .\Measure-AatpDeployment.ps1
@@ -36,11 +38,7 @@ To make the assessment against just one domain/child-domain, use the "Fqdn" para
 
 ```PowerShell
     .\Measure-AatpDeployment.ps1 -Fqdn "child.contoso.com"
-```
-
-## Getting Help
-
-For help please refer to the above blog.  In addition, when getting help, please include the Transcript file as illustrated in the blog post.
+```  
 
 ## Contributing
 
