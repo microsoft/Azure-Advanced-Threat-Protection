@@ -23,7 +23,7 @@ For default values (assess against Azure ATP (AATP), throttling with 10 concurre
 To configure the throttling of the processes (i.e. not being run on a DC or from a well resourced machine), use the "RunJobsThrottle" parameter.  In this example, we set this paramter to 100:
 
 ```PowerShell
-    .\Measure-Aatpeployment.ps1 -RunJobsThrottle 100
+    .\Measure-AatpDeployment.ps1 -RunJobsThrottle 100
 ```
 
 To assess against ATA's v1.9, use the "AtaVersion" parameter, which takes a *string* value:
